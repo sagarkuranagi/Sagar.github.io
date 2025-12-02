@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sagar Kuranagi | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JS -->
+  <script defer src="script.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Orbitron:wght@500&family=Inter:wght@300;400;500&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="sagar.jpg" alt="Avatar" class="avatar" />
+      <h2>Mr Sagar</h2>
+
+      <h4 class="title">Full Stack Developer | Web Developer | UI/UX Designer</h4>
+
+      <div class="social-icons">
+        <a href="https://github.com/sagarkuranagi" target="_blank" class="icon-link">
+          <div class="icon-circle"><i class="fab fa-github"></i></div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/sagar-kuranagi-588265281/" target="_blank" class="icon-link">
+          <div class="icon-circle"><i class="fab fa-linkedin-in"></i></div>
+        </a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="logo"></div>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#games">Game</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <h1>About Me</h1>
+        <p>
+          Hey! I’m <strong>Sagar Kuranagi</strong> from <strong>Mudalagi, Karnataka</strong>.<br>
+          I’m a passionate <strong>Full Stack Developer</strong>, <strong>Web Developer</strong>, and <strong>UI/UX Designer</strong><br>
+          who enjoys building clean, responsive user interfaces with smooth animations and solving real-world problems.
+        </p>
+
+        <div class="download-resume">
+          <a href="Sagar_Resume3.pdf" download>
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+
+          <div class="skill-card"><i class="fab fa-html5"></i><p>HTML5</p></div>
+          <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+          <div class="skill-card"><i class="fab fa-js-square"></i><p>JavaScript</p></div>
+          <div class="skill-card"><i class="fab fa-react"></i><p>React.js</p></div>
+          <div class="skill-card"><i class="fab fa-node"></i><p>Node.js</p></div>
+          <div class="skill-card"><i class="fab fa-express"></i><p>Express</p></div>
+          <div class="skill-card"><i class="fas fa-layer-group"></i><p>UI/UX Design</p></div>
+
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="section">
+        <h2>Education</h2>
+
+        <div class="education-container">
+
+          <div class="education-card">
+            <i class="fas fa-graduation-cap edu-icon"></i>
+            <h3>Bachelor of Engineering</h3>
+            <p><strong>Branch:</strong> Computer Science & Engineering</p>
+            <p><strong>CGPA:</strong> 7.00</p>
+            <p><strong>College:</strong> Angadi Institute of Technology & Management</p>
+            <p><strong>University:</strong> VTU, Belagavi</p>
+            <p><strong>Year:</strong> 2021–2025</p>
+          </div>
+
+          <div class="education-card">
+            <i class="fas fa-school edu-icon"></i>
+            <h3>PUC (Pre-University)</h3>
+            <p><strong>School:</strong> SSR PU College Mudalagi</p>
+            <p><strong>Stream:</strong> PCMB</p>
+            <p><strong>Percentage:</strong> 75.50%</p>
+            <p><strong>Year:</strong> 2019–2021</p>
+          </div>
+
+          <div class="education-card">
+            <i class="fas fa-chalkboard-teacher edu-icon"></i>
+            <h3>SSLC (10th)</h3>
+            <p><strong>School:</strong> Megha High School Naganur</p>
+            <p><strong>Percentage:</strong> 75.52%</p>
+            <p><strong>Year:</strong> 2018–2019</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Hobbies -->
+      <section id="hobbies" class="section">
+        <h2 class="section-title">Hobbies</h2>
+        <div class="skills-container">
+
+          <div class="skill-card"><i class="fas fa-book"></i><p>Reading Books</p></div>
+          <div class="skill-card"><i class="fas fa-tree"></i><p>Gardening</p></div>
+          <div class="skill-card"><i class="fas fa-film"></i><p>Watching Movies</p></div>
+          <div class="skill-card"><i class="fas fa-music"></i><p>Listening to Music</p></div>
+
+        </div>
+      </section>
+
+      <!-- Games -->
+      <section id="games" class="section">
+        <h2>🎮 My Games</h2>
+
+        <div class="swiper projectSwiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <img src="snake.png" alt="Snake Game" />
+              <h3>Snake Game</h3>
+              <p>Fun snake game built using JavaScript.</p>
+              <a href="snake-game.html" target="_blank">▶ Play Now</a>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="tiktactoe.png" alt="Tic Tac Toe Game" />
+              <h3>Tic Tac Toe</h3>
+              <p>Classic 2-player game.</p>
+              <a href="tic-tac-toe.html" target="_blank">▶ Play Now</a>
+            </div>
+
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <h3><i class="fas fa-envelope"></i>
+              <a href="mailto:thenamesagar@gmail.com">thenamesagar@gmail.com</a>
+            </h3>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    // Project Swiper
+    new Swiper(".projectSwiper", {
+      slidesPerView: 1.1,
+      spaceBetween: 20,
+      centeredSlides: true,
+      pagination: {
+        el: ".projectSwiper .swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        768: { slidesPerView: 2.2 },
+        1024: { slidesPerView: 3 }
+      }
+    });
+
+    // Mobile Navbar
+    document.addEventListener("DOMContentLoaded", () => {
+      const hamburger = document.getElementById('hamburger');
+      const navLinks = document.getElementById('navLinks');
+
+      hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      });
+
+      document.querySelectorAll('#navLinks a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('active');
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
